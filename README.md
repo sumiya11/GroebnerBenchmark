@@ -1,6 +1,6 @@
 # Gröbner basis benchmarks
 
-This repository powers [GrobnerBenchmark](https://sumiya11.github.io/GrobnerBenchmark).
+This repository powers [GroebnerBenchmark](https://sumiya11.github.io/GroebnerBenchmark).
 
 ## To build website locally
 
