@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+<style>
+<meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width,
+                   initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" type="text/css" 
+          href="index.css">
+</style>
+  <title></title>
+</head>
+
+<body>
+
+<h1>Gröbner basis benchmark</h1>
+
+<div class="navbar" id="myNavbar">
+        <a href="about.html">About</a>
+        <a href="index.html">Systems</a>
+        <a href="contribute.html">Contribute</a>
+        <a href="logs.html">Logs</a>
+        <a href="https://github.com/sumiya11/">GitHub</a>
+
+        <a href="javascript:void(0);"
+           class="icon"
+           onclick="toggleMenu()">
+            &#9776;
+        </a>
+    </div>
+
+<script>
+    function toggleMenu() {
+        let navbar = document.getElementById("myNavbar");
+        navbar.className = navbar.className === "navbar" ?
+                            "navbar responsive" : "navbar";
+    }
+</script>
+
+<div class="container">
+<p>This is a repository of systems of polynomial equations that can be useful when developing and benchmarking Gröbner bases algorithms. 
+    It is maintained by Alexander Demin (asdemin_2@edu.hse.ru).</p>
+
+<p>One focus are systems in commutative rings over fields that come from applications in dynamical systems and control, robotics, cryptography, to name a few.</p>
+</div>
+
+<div class="container">
+<h4 >What are the goals of this repository?</h4>
+<ul>
+<li><p>To minimize accidental errors in development.</p></li>
+<li><p>To preserve history and give credit.</p></li>
+<li><p>To track the frontier.</p></li>
+</ul>
+</div>
+
+<div class="container">
+<h4>What are other useful repositories?</h4>
+<ul>
+<li><p>https://github.com/symbolicdata/data</p></li>
+<li><p>https://gitlab.lip6.fr/eder/msolve-examples</p></li>
+<li><p>https://web.archive.org/web/20201202185136/http://www.cecm.sfu.ca/%7Erpearcea/mgb.html</p></li>
+<li><p>https://github.com/JuliaHomotopyContinuation/PolynomialTestSystems.jl</p></li>
+<li><p>https://github.com/mzinin/groebner_benchmarks</p></li>
+</ul>
+<p>If you do not see your repository here, we either do not know about it, or forgot to include it, sorry! Please refer to <a href="./contribute.html">Contribute</a>.</p>
+</div>
+
+<div class="container">
+<h4>Why use plaintext for storing data about systems?</h4>
+<ul>
+<li><p>It is easy to maintain.</p></li>
+<li><p>We do not know if there exists a standardized format.</p></li>
+</ul>
+</div>
+
+<div class="container">
+<h4>What are the current limitations?</h4>
+<ul>
+<li><p>It is hard to provide certificates for GB.</p></li>
+<li><p>Storing large systems is tricky.</p></li>
+<li><p>Curation.</p></li>
+</ul>
+<p>We do not have a solution for these at the moment.</p>
+</div>
+
+</body>

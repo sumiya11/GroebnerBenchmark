@@ -1,0 +1,104 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  
+h1 {
+    color: SeaGreen;
+}
+  
+  
+.container {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: green;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.navbar a.icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgb(236, 251, 242);
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Set a font family */
+  line-height: 1.4; /* Increase line height for better readability */
+  /* padding: 20px;*/ /* Add padding around the body */
+}
+
+p {
+  margin-bottom: 20px; /* Spacing between paragraphs */
+  /*text-indent: 20px;*/ /* Indentation for the first line */
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0px; /* Spacing before headers */
+  margin-bottom: 10px; /* Spacing after headers */
+}
+
+.indent {
+  text-indent: 30px; /* Custom class for indentation */
+}
+
+.spaced {
+  margin-bottom: 30px; /* Custom class for spacing */
+}
