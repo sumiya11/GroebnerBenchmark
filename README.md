@@ -27,4 +27,4 @@ To build the website, run this command in your favorite terminal:
 python build.py
 ```
 
-Resulting HTML files will be in `build/`.
+HTML files will be in `build/`.
