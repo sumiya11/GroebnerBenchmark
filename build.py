@@ -81,7 +81,7 @@ def populate_html(systems: dict) -> str:
     return HTML_TEMPLATE.replace("<@ @>", body)
 
 def write_build(build_dir: Path, systems_dir: Path, sources_dir: Path, html: str):
-    print(f"Writing build to: {build_dir.resolve().absolute()}")
+    print(f"Writing build files to: {build_dir.resolve().absolute()}")
     if os.path.exists(build_dir):
         remove_tree(str(build_dir))
     build_dir.mkdir()
