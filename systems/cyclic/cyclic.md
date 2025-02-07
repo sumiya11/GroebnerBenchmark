@@ -12,4 +12,4 @@ Cyclic n-roots.
     in J. Symbolic Computation (1991) 12, pp 329--336, [[doi]](https://doi.org/10.1016/S0747-7171(08)80153-8).
 - Sources:
     - [cyclic.jl](./systems/cyclic/cyclic.jl)
-    - [cyclic_7.txt](./systems/cyclic/txt/cyclic_7.txt), [cyclic_8.txt](./systems/cyclic/txt/cyclic_8.txt), [cyclic_9.txt](./systems/cyclic/txt/cyclic_9.txt), [cyclic_10.txt](./systems/cyclic/txt/cyclic_10.txt), [cyclic_11.txt](./systems/cyclic/txt/cyclic11.txt)
+    - [cyclic_7.txt](./systems/cyclic/txt/cyclic_7.txt), [cyclic_8.txt](./systems/cyclic/txt/cyclic_8.txt), [cyclic_9.txt](./systems/cyclic/txt/cyclic_9.txt), [cyclic_10.txt](./systems/cyclic/txt/cyclic_10.txt), [cyclic_11.txt](./systems/cyclic/txt/cyclic_11.txt)
