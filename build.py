@@ -33,7 +33,7 @@ HTML_TEMPLATE = """
         <a href="">Systems</a>
         <a href="contribute.html">Contribute</a>
         <a href="logs.html">Logs</a>
-        <a href="https://github.com/sumiya11/">GitHub</a>
+        <a href="https://github.com/sumiya11/GroebnerBenchmark">GitHub</a>
 
         <a href="javascript:void(0);"
            class="icon"
@@ -59,11 +59,8 @@ HTML_TEMPLATE = """
 def read_systems_data(systems_dir: Path) -> dict:
     print(f"Reading systems from: {systems_dir.resolve().absolute()}")
     systems = {}
-    for root, dirs, files in os.walk(systems_dir):
-        root = Path(root)
-        if root == systems_dir:
-            continue
-        system = root.stem
+    for system in os.listdir(systems_dir):
+        root = systems_dir / system
         print(f"  Reading {system}")
         systems[system] = {}
         description_filepath = system + SUPPORTED_EXTENSIONS[0]

@@ -1,4 +1,5 @@
-function noonn(; 
+function noonn(
+    n; 
     interface=AbstractAlgebra, 
     base_ring=interface.QQ, 
     ordering=:degrevlex

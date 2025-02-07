@@ -1,5 +1,6 @@
 ### Hexapod
 
-- Variables: 6, dimension: 0, quotient: 40 elements.
+- Comments: 6 variables, dimension is 0, degree is 40.
 - Sources:
-    - [Julia](./systems/hexapod/hexapod.jl)
+    - [hexapod.jl](./systems/hexapod/hexapod.jl)
+    - [hexapod.txt](./systems/hexapod/txt/hexapod.txt)
