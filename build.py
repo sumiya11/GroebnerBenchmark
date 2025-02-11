@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os, sys
+import re
 from pathlib import Path
 from distutils.dir_util import copy_tree, remove_tree
 import markdown
@@ -76,6 +77,12 @@ def populate_html(systems: dict) -> str:
     for system in system_names:
         content = systems[system]["content"]
         content = markdown.markdown(content)
+        # Make headers clickable
+        content = re.sub(
+            "<h3>(.+)</h3>",
+            f"<h3 id=\"{system}\"><a href=\"#{system}\" style=\"color: black\">\g<1></a></h3>",
+            content
+        )
         body = body + "<div class=\"container\">" + content + "</div>" + "\n<hr>\n"
     
     return HTML_TEMPLATE.replace("<@ @>", body)

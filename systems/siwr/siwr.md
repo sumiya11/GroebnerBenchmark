@@ -12,5 +12,5 @@ SIWR model of cholera transmission, structural identifiability problem.
     - Ruiwen Dong, Christian Goodbrake, Heather A. Harrington, and Gleb Pogudin (2023), *Differential Elimination for Dynamical Models via Projections with Applications to Structural Identifiability*. In SIAM Journal on Applied Algebra and Geometry, 7(1) 194-235, [[doi]](https://doi.org/10.1137/22M1469067).
 - Sources:
     - [siwr.jl](./systems/siwr/siwr.jl).
-        A .txt file with the equations takes 20 MB, so we do not distribute it.
         Attached is the Julia script for producing the system's equations.
+        A .txt file with the equations takes 20 MB, so we do not distribute it.
