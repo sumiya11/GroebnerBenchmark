@@ -7,6 +7,9 @@ An economics modelling application.
     - n variables, dimension is --, degree is --.
 - Timings: -
 - References:
+    - Pascal Van Hentenryck, David McAllester, and Deepak Kapur, 
+    *Solving Polynomial Systems Using a Branch and Prune Approach*,
+    SIAM J. Numerical Analysis, Vol. 34, No. 2, 797-827, 1997, [doi](https://doi.org/10.1137/S0036142995281504).
     - Alexander Morgan, *Solving Polynomial Systems Using Continuation for Scientic and Engineering Problems*, Prentice-Hall, Englewood Cliffs, NJ, 1987, [doi](https://epubs.siam.org/doi/10.1137/1.9780898719031).
 - Sources:
     - [eco.jl](./systems/eco/eco.jl)
