@@ -2,6 +2,7 @@
 
 SIWR model of cholera transmission, structural identifiability problem.
 
+- Keywords: identifiability.
 - Comments: 
     - 15 variables, dimension is 12, degree is --.
     - Let "y" be the first 8 variables in the ring.
